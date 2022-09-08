@@ -163,7 +163,7 @@ h1 {
 }
 
 p {
-    margin: 1em 2em;
+    margin: 1em 1em;
     padding: 2em;
     background-color: #FFF;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
@@ -229,7 +229,9 @@ button {
         flex-direction: row;
         justify-content: center;
         align-items: flex-start;
+        flex-wrap: wrap;
         gap: 10px;
+        padding: 1em;
 
         text-align: center;
         
@@ -241,6 +243,8 @@ button {
             border: 3px #EEE solid;
             border-radius: 5px;
             padding: 3px;
+            width: 72px;
+            min-height: 95px;
 
             img {
                 width: 50px;
@@ -249,6 +253,10 @@ button {
             }
 
             .name {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                flex: 1 1 0;
                 font-size: 10px;
             }
 
