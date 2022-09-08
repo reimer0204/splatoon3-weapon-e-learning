@@ -1,0 +1,29 @@
+{
+  "name": "splatoon3-e-learning",
+  "version": "1.0.0",
+  "description": "Splatoon3のサブスペを覚えるための勉強ツールです",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reimer0204/splatoon3-weapon-e-learning.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reimer0204/splatoon3-weapon-e-learning/issues"
+  },
+  "homepage": "https://github.com/reimer0204/splatoon3-weapon-e-learning#readme",
+  "dependencies": {
+    "@vitejs/plugin-vue": "^3.1.0",
+    "sass": "^1.54.9",
+    "sharp": "^0.31.0",
+    "vite": "^3.1.0",
+    "vue": "^3.2.39"
+  }
+}
