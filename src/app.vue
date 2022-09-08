@@ -122,6 +122,9 @@ export default {
                 return;
             }
 
+            // 正解なら次のブキアイコンを見せたいのでスクロール位置を最初に戻す
+            window.scrollTo(0, 0);
+
             this.resultList.push({ answer: this.answer, question: this.question });
             this.clearAnswer();
 
